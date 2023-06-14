@@ -6,9 +6,6 @@
     </style>
 
     <style name="Theme.BodyBoost" parent="Base.Theme.BodyBoost" />
-
-
-
     <style name="ButtonPurple">
         <item name="android:background">@drawable/bg_button_purple</item>
         <item name="android:fontFamily">@font/montserratregular</item>

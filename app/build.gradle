@@ -16,9 +16,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-o    bildFeatures{
-        true
-    }
 
     buildTypes {
         release {
