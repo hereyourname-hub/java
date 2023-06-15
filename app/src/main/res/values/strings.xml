@@ -4,4 +4,9 @@
     <string name="register_for_new_user"> <b>Register</b> for new User</string>
     <string name="password_log">Password</string>
     <string name="already_have_an_account"> <b> Already have </b> an account?</string>
+    <string name="bodyboost">BodyBoost</string>
+    <string name="water_card">WATER</string>
+    <string name="medicine_card">MEDICINE</string>
+    <string name="food_card">FOOD</string>
+    <string name="sleep_card">SLEEP</string>
 </resources>

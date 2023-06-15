@@ -57,7 +57,7 @@ public class RegiterActivity extends AppCompatActivity {
                             startActivity(new Intent(RegiterActivity.this,LoginActivity.class));
                         }
                         else {
-                            Toast.makeText(getApplicationContext(), "Password must contain at least 8 characters, having letter, digit and special symbol", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Password must contain at least 6 characters, having letter, digit and special symbol", Toast.LENGTH_SHORT).show();
                         }
                     } else {
                         Toast.makeText(getApplicationContext(), "Password and Confirm password didn't match", Toast.LENGTH_SHORT).show();
@@ -69,7 +69,7 @@ public class RegiterActivity extends AppCompatActivity {
     }
     public static boolean isValid(String passwordhere){
         int f1=0,f2=0,f3=0;
-        if (passwordhere.length() < 8){
+        if (passwordhere.length() < 6){
             return false;
         } else {
             for (int p =0; p < passwordhere.length(); p++){
