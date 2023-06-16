@@ -20,17 +20,6 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/kio5"
-        android:layout_width="554dp"
-        android:layout_height="266dp"
-        android:layout_marginBottom="4dp"
-        android:src="@drawable/m_logo"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <LinearLayout
         android:id="@+id/ill_1"
         android:layout_width="match_parent"
@@ -190,6 +179,15 @@
 
     </LinearLayout>
 
-
+    <ImageView
+        android:id="@+id/kio5"
+        android:layout_width="554dp"
+        android:layout_height="266dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/m_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
